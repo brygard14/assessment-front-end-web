@@ -1,0 +1,88 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+div.center {
+	text-align: center;
+
+}
+
+nav {
+  border-bottom: 2px solid orange;
+}
+
+ol {
+  padding-left: 0;
+}
+
+ul {
+	list-style-type: none
+}
+
+.covers {
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.book {
+	order:3;
+}
+
+.crumb {
+  margin-right: 2em;
+  display: inline;
+}
+
+a {
+  color: orange;
+}
+
+a:visited {
+  color: crimson;
+}
+
+input {
+  display: block;
+}
+
+.checkbox-wrapper {
+	white-space: nowrap
+}
+.checkbox {
+	vertical-align: top;
+	display:inline-block
+}
+.checkbox-label {
+	white-space: normal;
+	display: inline-block
+}
+
+.fancyBtns {
+	background-color:#edad2d;
+	border-radius:28px;
+	border:1px solid #ba7600;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	padding:4px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #664f28;
+}
+.fancyBtns:hover {
+	background-color:#d1900f;
+}
+.fancyBtns:active {
+	position:relative;
+	top:1px;
+}
+
+img {
+  max-width: 240px;
+}
